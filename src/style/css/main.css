@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #544837;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+}
+
+.btn-orange {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff9900;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.transparent_link {
+  color: #ff9900;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+.intro-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 110px;
+}
+
+.intro-left {
+  max-width: 518px;
+  width: 100%;
+}
+.intro-left__title {
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+}
+.intro-left__text {
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 458px;
+  width: 100%;
+}
+.intro-left__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0;
+  list-style: none;
+}
+.intro-left__buttons .btn-orange {
+  margin-right: 30px;
+}
+.intro-left__buttons img {
+  margin-right: 9px;
+}
